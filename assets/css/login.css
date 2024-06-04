@@ -1,0 +1,64 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
+/* Estilos de la página de inicio de sesión */
+body {
+    font-family: 'Quicksand', sans-serif;
+    background-image: url("https://images.ecestaticos.com/fLpOTCeX6fqvEzAFRdy701avsfM=/0x0:2272x1515/1200x900/filters:fill(white):format(jpg)/f.elconfidencial.com%2Foriginal%2F995%2F16a%2Fd6e%2F99516ad6e6d54bf2dd0d086d1ed31efd.jpg");
+    background-color: #f4f4f4;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.login-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    align-items: center;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.login-container h2 {
+    margin-bottom: 15px;
+}
+
+.login-form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.login-form input[type="text"],
+.login-form input[type="password"] {
+    width: 280px;
+    padding: 8px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.login-form button {
+    width: 270px;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #108106;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    align-items: center;
+    margin-left: auto;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.login-form button:hover {
+    background-color: #46ff7d;
+}
+

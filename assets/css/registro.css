@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
+body{
+    font-family: 'Quicksand', sans-serif;
+    background-image: url(https://images.unsplash.com/photo-1527903789995-dc8ad2ad6de0?auto=format&fit=crop&q=80&w=1000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bWluaW1hbGlzdCUyMGZsb3dlcnxlbnwwfHwwfHx8MA%3D%3D);
+    background-size: 100%;
+    display: flex;
+    min-height: 100vh;
+
+}
+
+.card-body{
+    background-color: white;
+    margin: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    padding: 20px;
+    box-shadow: 0px 10px 10px rgba(0 0 0 / 40%);
+    border-radius: 10px;
+    text-align: center;
+}
+
+.card-body button {
+    font-family: 'Quicksand', sans-serif;
+    font-size: medium;
+    width: 100%;
+    padding: 10px;
+    margin-top: 30px;
+    background-color: #c78d9a;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.card-body button:hover {
+    background-color: #9f87a3;
+}

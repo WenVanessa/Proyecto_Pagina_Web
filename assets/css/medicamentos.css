@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+}
+.navbar {
+    display: flex;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 10px;
+  }
+  
+  .logo-img,
+  .cart-img {
+    height: 20px;
+  }
+  
+  .logo-btn {
+    margin-right: 100px;
+    cursor: pointer;
+  }
+  
+  .navbar-items {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  .navbar-right {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  .navbar-items button,
+  .navbar-right button {
+    display: inline-block;
+    padding: 6px 12px;
+    text-decoration: none;
+    background-color: #cae9ac;
+    color: #191b15;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 140px;
+    height: 50px;
+    border-color: #ffffff;
+   
+  }
+  
+  .navbar-right .btn.ingresar-btn {
+    background-color: #0e3b0e;
+    color: white;
+  }
+  
+  .cart-btn {
+    margin-left: 20px;
+    margin-right: 100px;
+    cursor: pointer;
+  }
+
+img{
+    width: 100%;
+    height: 100%;
+}
+
+.h1 {
+    margin-top: 70px;
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+}
+
+p{
+    margin-top: 20px;
+}
+.product-cards {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px auto;
+    max-width: 1200px;
+    padding: 0 20px;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+}
+
+.product-card {
+    border: 1px solid #9be9bc;
+    padding: 10px;
+    width: 300px; /* Ajusta el ancho de cada tarjeta según tu diseño */
+    box-sizing: border-box;
+    text-align: center;
+    margin: 30px auto;
+    background-color: #9be9bc;
+    border-radius: 10px;
+}
+
+.product-card img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.buttons {
+    margin-top: 20px;
+}
+
+.buttons button {
+    margin: 0 5px; /* Espacio entre los botones */
+    padding: 5px 10px;
+    background-color: #1a520f;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.buttons button:hover {
+    background-color: #355a12;
+}
+
+.centered-image {
+    text-align: center; /* Centrar horizontalmente */
+    margin-top: 20px; /* Agregar un margen superior */
+}
+
+.centered-image img {
+    max-width: 100%;
+    height: auto;
+}
+
+footer {
+    background-color: #ffffff;
+    padding: 20px;
+    text-align: center;
+    align-items: center ;
+  }
+  
+  .contact-us {
+    margin-top: 50px;
+    margin-bottom: 20px;
+    text-align: center;
+    margin-left: 400px;
+  }
+  
+  .social-links {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 400px;
+  }
+  
+  .social-links li {
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+  .social-links a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #000;
+  }
+  
+  .social-links img {
+    width: 50px;
+    height: 50px;
+    margin-right: 5px;
+    align-content: center;
+  }
+  
+  .link-text {
+    color: #1a2903;
+  }
+  
+  .link-text:hover {
+    color: #25722f;
+  }
+  

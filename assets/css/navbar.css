@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
+body{
+  font-family: 'Quicksand', sans-serif;
+
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  background-color: #ffffff;
+  padding: 10px;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.logo-img,
+.cart-img {
+  height: 20px;
+}
+
+.logo-btn {
+  margin-right: 100px;
+  cursor: pointer;
+}
+
+.navbar-items {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.navbar-right {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.navbar-items button,
+.navbar-right button {
+  display: inline-block;
+  padding: 6px 12px;
+  text-decoration: none;
+  background-color: #cae9ac;
+  color: #191b15;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 140px;
+  height: 50px;
+  border-color: #ffffff;
+ 
+}
+
+.navbar-right .btn.ingresar-btn {
+  background-color: #0e3b0e;
+  color: white;
+
+}
+
+.cart-btn {
+  margin-left: 20px;
+  margin-right: 100px;
+  cursor: pointer;
+}

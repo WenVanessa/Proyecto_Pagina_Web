@@ -1,0 +1,41 @@
+header {
+  background-image: url(https://i.pinimg.com/736x/b3/97/cb/b397cb44b22ba35cd723fabd0d79e269.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 300px; /* Ajusta la altura según tus necesidades */
+  color: rgb(17, 45, 5);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%; /* Ajusta el ancho del encabezado */
+  max-width: 1200px; /* Ajusta el ancho máximo del encabezado si lo deseas */
+  margin: 0 auto; /* Centra el encabezado horizontalmente */
+  background-color: #0b2511;
+}
+
+h1 {
+  font-size: 50px; /* Ajusta el tamaño de fuente según tus necesidades */
+  border: 2px solid rgb(12, 26, 3); /* Agrega un borde al texto */
+  padding: 10px; /* Añade espacio interno alrededor del texto */
+  color: #0b2511;
+}
+
+.search-bar {
+  margin-top: 20px; /* Ajusta el espacio superior según tus necesidades */
+}
+
+input[type="text"] {
+  padding: 8px;
+  font-size: 15px; /* Ajusta el tamaño de fuente según tus necesidades */
+  border-radius: 10px;
+}
+
+button[type="submit"] {
+  padding: 8px 16px;
+  font-size: 15px; /* Ajusta el tamaño de fuente según tus necesidades */
+  border-radius: 10px;
+  background-color: #8eda57;
+  cursor: pointer;
+}

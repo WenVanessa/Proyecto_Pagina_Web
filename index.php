@@ -1,0 +1,15 @@
+<?php
+require_once('vistas/navbar.php')
+?>
+<?php
+require_once('vistas/header.php')
+?>
+<?php
+require_once('vistas/contentone.php')
+?>
+<?php
+require_once('vistas/contenttwo.php')
+?>
+<?php
+require_once('vistas/footer.php')
+?>
